@@ -11,63 +11,17 @@
             <div class="flex-shrink-0"><span class="text-primary">{{experience.period}}</span></div>
         </div>
         <br>
-        <h4>Alguns projetos desenvolvidos para aplicação de conhecimentos teóricos. <a target="_blank" href="https://github.com/tibursocampos?tab=repositories">Repositório no GitHub.</a></h4>
+        <h4>Alguns projetos desenvolvidos para aplicação de conhecimentos teóricos. <a target="_blank" href="{{linkRepoGithub}}">Repositório no GitHub.</a></h4>
         <br>
         <div class="container">
           <div class="row">
-            <div class="col-sm">
-              <p>Gerenciamento de manutenções preventivas - front-end.</p>
-              <a target="_blank" href="https://github.com/tibursocampos/GerenciamentoPreventivasWeb"><img class="d-block w-100" src="../assets/images/GerenciamentoPreventivasWeb.JPG" title="Ver no Github" alt="GCMP Front"></a>
-            </div>
-            <div class="col-sm">
-              <p>Gerenciamento de manutenções preventivas - back-end.</p>
-              <a target="_blank" href="https://github.com/tibursocampos/GerenciamentoPreventivasAPI"><img class="d-block w-100" src="../assets/images/GerenciamentoPreventivasAPI.JPG" title="Ver no Github" alt="GCMP Back"></a>
-            </div>
-            <div class="col-sm">
-              <p>CRUD para gerenciamento de usuários - front-end.</p>
-              <a target="_blank" href="https://github.com/tibursocampos/TesteVagaJrWeb"><img class="d-block w-100" src="../assets/images/CrudUsuariosWeb.JPG" title="Ver no Github" alt="CRUD Front"></a>
+            <div *ngFor="let project of projects" class="col-sm">
+              <p>{{project.name}}</p>
+              <a target="_blank" href="{{project.linkGithub}}"><img class="d-block w-100" src="{{project.image}}" title="Ver no Github" alt="GCMP Front"></a>
+              <portfolio-modal [projects]="project"></portfolio-modal> 
             </div>
           </div>
-        </div>  
-        <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <a target="_blank" href="https://www.uol.com.br"><img class="d-block w-100" src="../assets/images/imagem.png" alt="First slide"></a>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>...</h5>
-                    <p>...</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <a target="_blank" href="https://www.uol.com.br"><img class="d-block w-100" src="../assets/images/imagem.png" alt="First slide"></a>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>...</h5>
-                    <p>...</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <a target="_blank" href="https://www.uol.com.br"><img class="d-block w-100" src="../assets/images/imagem.png" alt="First slide"></a>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>...</h5>
-                    <p>...</p>
-                </div>
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Anterior</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Próximo</span>
-            </a>
-        </div> -->
-        
+        </div>               
     </div>
 </section>
 <hr class="m-0" />
