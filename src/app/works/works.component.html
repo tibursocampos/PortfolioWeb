@@ -1,18 +1,35 @@
 <section class="resume-section" id="works">
     <div class="resume-section-content">
-        <h2 class="mb-5">Experience</h2>
+        <h2 class="mb-5">Trabalhos e experiência</h2>
         <br>
-        <div class="d-flex flex-column flex-md-row justify-content-between">
+        <div *ngFor="let experience of experiences" class="d-flex flex-column flex-md-row justify-content-between">
             <div class="flex-grow-1">
-                <h3 class="mb-0">Web Design Intern</h3>
-                <div class="subheading mb-3">Shout! Media Productions</div>
-                <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+                <h3 class="mb-0">{{experience.role}}</h3>
+                <div class="subheading mb-3">{{experience.company}}</div>
+                <p *ngFor="let task of experience.tasks">{{task}}</p>
             </div>
-            <div class="flex-shrink-0"><span class="text-primary">September 2008 - June 2010</span></div>
+            <div class="flex-shrink-0"><span class="text-primary">{{experience.period}}</span></div>
         </div>
         <br>
-        <h4>Alguns projetos desenvolvidos para aplicação de conhecimentos teóricos. <a target="_blank" href="https://github.com/tibursocampos?tab=repositories">Todos projetos no GitHub.</a></h4>
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <h4>Alguns projetos desenvolvidos para aplicação de conhecimentos teóricos. <a target="_blank" href="https://github.com/tibursocampos?tab=repositories">Repositório no GitHub.</a></h4>
+        <br>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              <p>Gerenciamento de manutenções preventivas - front-end.</p>
+              <a target="_blank" href="https://github.com/tibursocampos/GerenciamentoPreventivasWeb"><img class="d-block w-100" src="../assets/images/GerenciamentoPreventivasWeb.JPG" title="Ver no Github" alt="GCMP Front"></a>
+            </div>
+            <div class="col-sm">
+              <p>Gerenciamento de manutenções preventivas - back-end.</p>
+              <a target="_blank" href="https://github.com/tibursocampos/GerenciamentoPreventivasAPI"><img class="d-block w-100" src="../assets/images/GerenciamentoPreventivasAPI.JPG" title="Ver no Github" alt="GCMP Back"></a>
+            </div>
+            <div class="col-sm">
+              <p>CRUD para gerenciamento de usuários - front-end.</p>
+              <a target="_blank" href="https://github.com/tibursocampos/TesteVagaJrWeb"><img class="d-block w-100" src="../assets/images/CrudUsuariosWeb.JPG" title="Ver no Github" alt="CRUD Front"></a>
+            </div>
+          </div>
+        </div>  
+        <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -49,7 +66,7 @@
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="sr-only">Próximo</span>
             </a>
-        </div>
+        </div> -->
         
     </div>
 </section>
