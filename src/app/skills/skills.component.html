@@ -1,0 +1,28 @@
+<section class="resume-section" id="skills">
+    <div class="resume-section-content">
+        <h2 class="mb-5">Skills</h2>
+        <div class="subheading mb-3">Linguagens de Programação e Ferramentas</div>
+        <ul class="fa-ul mb-0" *ngFor="let linguagem of linguagens">
+            <li>
+                <span class="fa-li"><i class="fas fa-check"></i></span>
+                {{linguagem}}
+            </li>
+        </ul><br>
+        <ul class="list-inline dev-icons">
+            <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+            <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+            <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+            <li class="list-inline-item"><i class="fab fa-angular"></i></li>
+            <li class="list-inline-item"><i class="fab fa-docker"></i></li>
+            <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+        </ul><br>
+        <div class="subheading mb-3">Workflow</div>
+        <ul class="fa-ul mb-0" *ngFor="let flow of workflow">
+            <li>
+                <span class="fa-li"><i class="fas fa-check"></i></span>
+                {{flow}}
+            </li>
+        </ul>
+    </div>
+</section>
+<hr class="m-0" />
