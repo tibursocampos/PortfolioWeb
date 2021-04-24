@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'PortfolioWeb';
+  
+  ChangeState(divId :string) {
+    //document.getElementById(divId).style.display = "none";
+    console.log(divId);
+  }  
 }
