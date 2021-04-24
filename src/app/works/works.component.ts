@@ -18,7 +18,6 @@ export class WorksComponent implements OnInit {
   
   public experiences :Experience[] = [
     {
-      experienceId: 1,
       role: "Técnico em Telecomunicações Sr.",
       company: "TLP Serviços",
       period: "outubro, 2020  -  atualmente",  
@@ -33,21 +32,18 @@ export class WorksComponent implements OnInit {
   
   public projects :Project[] = [
     {
-      projectId: 1,
       name: "Gerenciamento de manutenções preventivas - front-end.",
       image: "../assets/images/GerenciamentoPreventivasWeb.JPG",
       abstract: "Projeto de conclusão de curso na UEMG, Universidade do Estado de Minas Gerais. Desenvolvimento do front-end, utilizando Angular, para um sistema de gerenciamento de cronogramas de manutenções preventivas de uma empresa de telefonia móvel.",
       linkGithub: "https://github.com/tibursocampos/GerenciamentoPreventivasWeb"      
     },
     {
-      projectId: 2,
       name: "Gerenciamento de manutenções preventivas - back-end.",
       image: "../assets/images/GerenciamentoPreventivasAPI.JPG",
       abstract: "Projeto de conclusão de curso na UEMG, Universidade do Estado de Minas Gerais. Desenvolvimento de uma API para um sistema de gerenciamento de cronogramas de manutenções preventivas de uma empresa de telefonia móvel."       ,
       linkGithub: "https://github.com/tibursocampos/GerenciamentoPreventivasAPI"
     },
     {
-      projectId: 3,
       name: "CRUD para gerenciamento de usuários - front-end.",
       image: "../assets/images/CrudUsuariosWeb.JPG",
       abstract: "Teste para vaga Dev Jr. Front-end para cadastro de usuários e um relatório com alguns filtros.",

@@ -25,7 +25,7 @@
           "options": {
             "allowedCommonJsDependencies": [
               "lodash"
-           ],
+            ],
             "outputPath": "dist/PortfolioWeb",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -36,15 +36,13 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/styles.css",
-              "node_modules/bootstrap/dist/css/bootstrap.css"
+            "styles": [              
+              "src/styles.css"              
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.js",
-              "node_modules/jquery/dist/jquery.min.js",              
-              "node_modules/jquery-easing/dist/jquery.easing.1.3.umd.min.js",              
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/jquery-easing/dist/jquery.easing.1.3.umd.min.js",
               "node_modules/popper.js/dist/umd/popper.js",
               "node_modules/bootstrap/dist/js/bootstrap.js",
               "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
@@ -139,6 +137,10 @@
               "devServerTarget": "PortfolioWeb:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }

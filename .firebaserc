@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "portfolio-raphael-9b2f9"
+  },
+  "targets": {
+    "portfolio-raphael-9b2f9": {
+      "hosting": {
+        "PortfolioWeb": [
+          "portfolio-raphael-9b2f9"
+        ]
+      }
+    }
   }
 }

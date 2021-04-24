@@ -159,12 +159,12 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: #17a2b8;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #824027;
+  color: #148394;
   text-decoration: underline;
 }
 
@@ -2678,25 +2678,25 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #bd5d38;
-  border-color: #bd5d38;
+  color: #17a2b8;
+  border-color: #17a2b8;
 }
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #bd5d38;
-  border-color: #bd5d38;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
 }
 .btn-outline-primary:focus, .btn-outline-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(189, 93, 56, 0.5);
+  box-shadow: 0 0 0 0.2rem #65a4ae;
 }
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: #bd5d38;
+  color: #17a2b8;
   background-color: transparent;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: #bd5d38;
-  border-color: #bd5d38;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(189, 93, 56, 0.5);
@@ -6075,7 +6075,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #bd5d38 !important;
+  background-color: #17a2b8 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9777,11 +9777,11 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #bd5d38 !important;
+  color: #17a2b8 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #824027 !important;
+  color: #17a2b8 !important;
 }
 
 .text-secondary {
@@ -10021,7 +10021,7 @@ p.lead {
   text-transform: uppercase;
 }
 #sideNav .navbar-toggler:focus {
-  outline-color: #d48a6e;
+  outline-color: #17a2b8;
 }
 
 @media (min-width: 992px) {
@@ -10079,7 +10079,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #007bff;
+  background-color: #17a2b8;
 }
 
 .dev-icons {
