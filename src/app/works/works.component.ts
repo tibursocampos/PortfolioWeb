@@ -40,13 +40,13 @@ export class WorksComponent implements OnInit {
     {
       name: "Gerenciamento de manutenções preventivas - back-end.",
       image: "../assets/images/GerenciamentoPreventivasAPI.JPG",
-      abstract: "Projeto de conclusão de curso na UEMG, Universidade do Estado de Minas Gerais. Desenvolvimento de uma API para um sistema de gerenciamento de cronogramas de manutenções preventivas de uma empresa de telefonia móvel."       ,
+      abstract: "Projeto de conclusão de curso na UEMG, Universidade do Estado de Minas Gerais. Desenvolvimento de uma API em .Net Core para um sistema de gerenciamento de cronogramas de manutenções preventivas de uma empresa de telefonia móvel."       ,
       linkGithub: "https://github.com/tibursocampos/GerenciamentoPreventivasAPI"
     },
     {
       name: "CRUD para gerenciamento de usuários - front-end.",
       image: "../assets/images/CrudUsuariosWeb.JPG",
-      abstract: "Teste para vaga Dev Jr. Front-end para cadastro de usuários e um relatório com alguns filtros.",
+      abstract: "Teste para vaga Dev Jr. Front-end, utilizando Angular, para cadastro de usuários e um relatório com alguns filtros.",
       linkGithub: "https://github.com/tibursocampos/TesteVagaJrWeb"       
     }
   ];
