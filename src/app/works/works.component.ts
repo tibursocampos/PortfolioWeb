@@ -17,10 +17,20 @@ export class WorksComponent implements OnInit {
   public linkRepoGithub :string = "https://github.com/tibursocampos?tab=repositories";
   
   public experiences :Experience[] = [
+        {
+      role: "Desenvolvedor .NET Full Stack",
+      company: "Streamer Tecnologia",
+      period: "junho, 2021  -  atualmente",  
+      tasks: [
+        "Desenvolvedor .NET Full Stack trabalhando no design, desenvolvimento, implementação, otimização e manutenção de software.",
+        "Tecnologias utilizadas: Asp.Net Core, EF Core, APIs REST Full, Angular, Bootstrap, JavaScript / TypeScript.",
+        "Azure DevOps, Azure Repos, Azure SQL."
+      ]   
+    },
     {
       role: "Técnico em Telecomunicações Sr.",
       company: "TLP Serviços",
-      period: "outubro, 2020  -  atualmente",  
+      period: "outubro, 2020  -  junho, 2020",  
       tasks: [
         "Operação e manutenção na rede da operadora TIM no sul de Minas Gerais.",
         "Estabelecimento de melhorias, cuidando da operação, manutenção corretiva e preventiva nos sistemas de transmissão e acesso, acrescentando novos recursos e infraestrutura, aprimorando a qualidade do serviço prestado pela operadora.",
